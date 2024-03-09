@@ -8,7 +8,7 @@ import java.util.*;
 // } Driver Code Ends
 //User function template for Java
 
-class Main
+class Solution
 {
     public static void sort012(int a[], int n)
     {
