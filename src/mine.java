@@ -8,11 +8,9 @@ class Minesweeper {
 			if (i != 1) {
 				System.out.println("");
 			}
-
 			for (int j = 0; j < n; j++) {
 				field[j] = sc.next();
 			}
-
 			System.out.println(String.format("Field #%d:", i));
 			getAns(field, n, m);
 			n = sc.nextInt();

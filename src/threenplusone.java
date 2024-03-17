@@ -1,7 +1,6 @@
 import java.util.*;
-
 class threeplusone {
-	public static void main(String... args) {
+		public static void main(String... args) {
 		try {
 			Scanner sc = new Scanner(System.in);
 			int i, j, n, ans;
@@ -15,19 +14,16 @@ class threeplusone {
 				System.out.println(String.format("%d %d %d", i, j, ans));
 			}
 		} catch (Exception e) {
-			// Nothing to do here
 		} finally {
 			System.exit(0);
 		}
 	}
-
 	static int cycle(long n) {
 		int ans = 1;
 		while (n != 1) {
-			if (n % 2 == 0) {
+			if (n % 2 == 0) { 
 				n = n / 2;
-			} else {
-				n = 3 * n + 1;
+			} else {n = 3 * n + 1;
 			}
 			ans++;
 		}
